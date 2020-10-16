@@ -1,0 +1,28 @@
+.card{
+  margin: 2rem;
+  border: 1px solid red;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0,0,0,0.15) 0px 2px 4px 0px;
+  @media only screen and (max-width: 56.25em) {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  &-photo {
+    width: 100%;
+    background-image: url('https://i.ytimg.com/vi/uXvAPxeqocE/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 350px;
+    @media only screen and (max-width: 56.25em) {
+      min-height: 200px;
+    }
+  }
+  & .title {
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}

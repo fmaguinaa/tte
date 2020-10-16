@@ -1,0 +1,12 @@
+.app-logo{
+  padding: auto;
+  font-size: 6rem;
+  color: var(--color-primary);
+  //margin: 0 4rem;
+  &:link,
+  &:visited,
+  &:hover,
+  &:active{
+    text-decoration: none;
+  }
+}

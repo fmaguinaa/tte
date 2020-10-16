@@ -1,0 +1,30 @@
+.contactenos{
+    width: 100%;
+    padding: 0 4rem 18rem;
+    &-content{
+        display: block;
+        margin: 0 auto;
+        .row{
+            display: flex;
+            flex-direction: row;
+            padding: 1rem 2rem;
+            line-height: 3rem;
+            margin: 0 auto;
+            svg{
+                font-size: 3rem;
+                color: var(--color-primary-dark);
+            }
+            .text{
+                font-size: 2rem;
+                margin: 0 2rem;
+            }
+            a{
+                font-size: 2rem;
+                color: var(--color-primary-light);
+                &:hover, &:active, &:visited{
+                    color: var(--color-secondary);
+                }
+            }
+        }
+    }
+}

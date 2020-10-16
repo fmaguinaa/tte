@@ -1,0 +1,28 @@
+.btn{
+    &Up-container{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: 25;
+    }
+    &-up{
+        margin: 3rem;
+        visibility: hidden;
+        background-color: var(--color-white);
+        color: var(--color-secondary-light);
+        border-radius: 50%;
+        border-color: var(--color-secondary-light);
+        box-shadow: 0 .5rem 1rem var(--color-sencodary);
+        transition: all .5s ease-in-out;
+        &-visible{
+            visibility: visible;
+        }
+        &:hover,
+        &:active,
+        &:focus{
+            color: var(--color-secondary-light);
+            border-color: var(--color-secondary-light);
+            transform: translateY(-.1rem);
+        }
+    }
+}

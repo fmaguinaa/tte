@@ -1,0 +1,31 @@
+.galeria{
+    height: auto;
+    padding-bottom: 18rem;
+    .ant-divider{padding: 0 4rem}
+
+    &__wallpaper{
+        // height: 100%;
+        // width: 100%;
+        height: 80vh;
+        padding: 2rem 0;
+        width: 100%;
+    }
+    &__image{
+        background-image: url('https://i.ytimg.com/vi/uXvAPxeqocE/maxresdefault.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        &_description{
+            text-align: center;
+            height: 80vh;
+            line-height: 80vh;
+            overflow: hidden;
+            margin: auto;
+            font-weight: 900;
+            font-size: 6rem;
+            text-transform: uppercase;
+            color: var(--color-white);
+            letter-spacing: .2em;
+        }
+    }
+}

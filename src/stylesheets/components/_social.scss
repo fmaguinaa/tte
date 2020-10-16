@@ -1,0 +1,31 @@
+.social{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  svg{
+    font-size: 4.5rem;
+    @include respond(tab-port){
+      font-size: 2.5em;      
+    }
+    margin: 0 1rem;
+  }
+  .fa-facebook{
+    color: #3b5998;
+  }
+  .fa-instagram{
+    color: #c32aa3;
+  }
+  .fa-twitter{
+    color: #00acee;
+  }
+  .fa-youtube{
+    color: #c4302b;
+  }
+}
+
+footer{
+  svg{
+    color: white !important;
+  }
+}

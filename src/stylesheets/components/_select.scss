@@ -1,0 +1,13 @@
+.MuiFormControl-root{
+    width: 100%;
+    padding: 2rem 0 !important;
+    .MuiInputLabel-animated, input, .MuiInputBase-root{
+        font-size: 2rem;
+    }
+}
+
+.MuiMenu-paper{
+    .MuiListItem-root{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,95 @@
+// .landing{
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 100vh;
+//   width: 100%;
+//   // background: url('../assets/images/background/landing-background.png');
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   vertical-align: middle;
+//   display:flex;
+//   flex-flow: column nowrap;
+
+//   // transform: translateY(-8rem);
+//   /*& ~ body{
+//     padding-top: 0;
+//   }*/
+//   @include respond (phone-large) {
+//     flex-flow: wrap;
+//   }
+// }
+
+// .landing-container{
+//   margin: auto 8rem;
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   @include respond (phone-large) {
+//     margin: auto 2rem;
+//     display: block;
+//   }
+//   & > *{
+//     width: 50%;
+//     &:not(:last-child){
+//       padding-right: 4rem;
+//       @include respond (phone-large) {
+//         padding-right: 0;
+//         padding-bottom: 8rem;
+//       }
+//     }
+//     @include respond (phone-large) {
+//       width: 100%;
+//     }
+//   }
+//   &__phrase{
+//     //width: 50%;
+//     font-size: 6rem;
+//     margin: auto 0;
+//     color: var(--color-white);
+//     font-weight: 900;
+//     //height: 100%;
+//     //flex-grow: 1;
+//   }
+// }
+
+// // .main .landing-default .landing-default-phrase .landing-default-form{
+// //   width: 50%;
+
+// // }
+
+.landing{
+    // height: 100%;
+    // width: 100%;
+    // background: red;
+    height: auto;
+    padding-bottom: 18rem;
+    &__wallpaper{
+        // height: 100%;
+        // width: 100%;
+        height: 60vh;
+        width: 100%;
+    }
+    &__image{
+        background-image: url('https://www.ytuqueplanes.com/fotos/destinos/La-ciudad-de-Huaraz-Ancash-3.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        &_description{
+            text-align: center;
+            height: 60vh;
+            line-height: 60vh;
+            overflow: hidden;
+            margin: auto;
+            font-weight: 900;
+            font-size: 6rem;
+            text-transform: uppercase;
+            color: var(--color-white);
+            letter-spacing: .2em;
+        }
+    }
+    .heading-tertiary{
+        margin-top: 1.5rem;
+    }
+}

@@ -1,0 +1,18 @@
+.link{
+  flex:1;
+  &:link,
+  &:visited{
+    text-decoration: none;
+  }
+
+  &:hover{
+    cursor:pointer;
+  }
+
+  &--white{
+    color:var(--color-white);
+    font-size: 2rem;
+    text-transform: uppercase;
+    left: 0;
+  }
+}

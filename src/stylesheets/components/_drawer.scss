@@ -1,0 +1,43 @@
+.ant-drawer-content{
+    background-color: --var(--color-grey-light-1);
+}
+.ant-drawer-body{
+    padding: 0;
+    .drawer{
+        margin-bottom: 5rem;
+        &__head{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        &__content{
+            // padding: 2rem;
+            ul{
+                list-style-type: none;
+                a{
+                    width: 100%;
+                    color: var(--color-primary-light);
+                    text-transform: uppercase;
+                }
+                li{
+                    padding: 2rem 0 2rem 2rem;
+                    border-left: var(--line-4);
+                    border-left-color: var(--color-white);
+                    &:hover, &:active, &:visited{
+                        a{
+                            color: var(--color-white);
+                        }
+                        border-left: var(--line-4);
+                        background: #f4c51ac5;
+                    }
+                }
+            }
+        }
+        &__footer{
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+    }
+}

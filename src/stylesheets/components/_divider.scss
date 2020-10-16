@@ -1,0 +1,10 @@
+.ant-divider{
+    &::before,&::after{
+        border-top: 2px solid var(--color-secondary) !important;
+    }
+    h1{
+        align-content: center;
+        color: var(--color-secondary);
+        margin: 0;
+    }
+}

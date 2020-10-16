@@ -1,0 +1,33 @@
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    width: 100%;
+    text-align: center;
+    &>a{
+        color: var(--color-white);
+        &:hover, &:visited, &:active{
+            color: var(--color-primary);
+        }
+    }
+}
+
+.footer-primary{
+    padding: 2rem 8rem;
+    background-color: var(--color-secondary-light);
+    &--title{
+        font-size: 7rem;
+        margin: auto 0;
+        font-weight: 700;
+        color: var(--color-white);
+    }
+    &--copyright{
+        // background-color: var(--color-secondary-dark);
+        font-size: 3rem;
+        // padding: 1rem 0;
+        padding-top: 1rem;
+        margin: auto 0;
+        font-weight: 400;
+        color: var(--color-white);
+    }
+}

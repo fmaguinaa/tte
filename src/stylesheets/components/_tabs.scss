@@ -1,0 +1,16 @@
+.ant-tabs{
+    &-nav-wrap{
+        text-align: center;
+    }
+    &-tab{
+        &:hover, &:active, &:visited{
+            color: var(--color-secondary) !important;            
+        }
+    }
+    &-tab-active{
+        color: var(--color-secondary) !important;
+    }
+    &-ink-bar{
+        background-color: var(--color-secondary);
+    }
+}
